@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    width:450px;
+    border-radius: 12px;
+    margin:6% auto;
+    height: 100px;
+    box-shadow: 4px 4px 4px 4px #646363;
+}
+.container .text{
+    padding:8px 12px;
+    font-size: 17px;
+    color: #884125;
+    
+}
+ .form{
+    margin: 0px 10px ;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.form input{
+    /* make input take all width */
+    flex: 1;
+   border-radius: 12px;
+   /* transparent color it mean take color from father or background */
+   border:2px solid transparent;
+    background-color: #e7e2e2;
+    outline: none;
+    padding:8px;
+    font-size: 17px;
+
+
+}
+
+.form .buttonsub{
+    border-radius: 20%;
+    padding: 12px;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #884125;
+    color:#fff;
+    width:100px;
+
+    
+}
+.mission{
+    list-style: none;
+    margin-top: 40px;
+  
+    
+    
+}
+/* add and remove with java script */
+.mission li{
+  
+     background-color: #fff;
+    width:450px;
+    border-radius: 12px;
+    margin:8px auto;
+    min-height: 50px;
+    box-shadow: 4px 4px 4px 4px #646363;
+    padding:15px 8px;
+    margin:12px 0px;
+    overflow:hidden;
+   
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    
+
+}
+/* delete button  */
+ .mission button{
+   border-radius: 20%;
+    padding: 8px;
+    font-size: 13px;
+    border: 2px solid transparent;
+    background-color: #884125;
+    color:#fff;
+    width:60px;
+  
+
+}
